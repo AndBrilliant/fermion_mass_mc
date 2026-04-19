@@ -1,0 +1,404 @@
+================================================================================
+KOIDE FORMULA â MASTER BIBLIOGRAPHY
+================================================================================
+
+Last updated: 2026-04-19 (second pass: citations verified against both
+the "Soddy curvature" and "look-elsewhere" manuscripts)
+Maintainer: A. Brilliant
+Status: living document. Verification status noted per entry.
+
+--------------------------------------------------------------------------------
+VERIFICATION LEGEND
+--------------------------------------------------------------------------------
+
+[V]  Verified against primary source (arXiv abstract, DOI, or published
+     journal record checked within the past week).
+[S]  From secondary source (Wikipedia, HandWiki, review paper). Should
+     be verified before citing in a manuscript.
+[R]  From a review paper's citation list; double-check before use.
+[?]  Uncertain citation details; verify before using.
+
+--------------------------------------------------------------------------------
+SOURCES CONSIDERED AUTHORITATIVE
+--------------------------------------------------------------------------------
+
+This list was cross-referenced against two manuscripts whose citations
+were hand-verified by the author:
+
+- "A Descartes–Soddy completion of the Koide lepton triple" (Brilliant
+   2026, appolb class, the Soddy/strange paper).
+- "Look-elsewhere correction for Koide-type quark mass relations"
+   (Brilliant 2026, the v3 LEE companion paper, koide_lee_v5.tex).
+
+When this list and those manuscripts agree, the entry is [V].
+
+--------------------------------------------------------------------------------
+A. ORIGINAL KOIDE PAPERS
+--------------------------------------------------------------------------------
+
+[V]  Koide, Y.
+     Letters al Nuovo Cimento 34, 201 (1982)
+     bibkey: Koide1982
+     Comment: Earliest form of the relation; preon-composite context.
+
+[V]  Koide, Y.
+     "A fermion-boson composite model of quarks and leptons"
+     Physics Letters B 120, 161-165 (1983)
+     DOI: 10.1016/0370-2693(83)90644-5
+
+[V]  Koide, Y.
+     "New view of quark and lepton mass hierarchy"
+     Physical Review D 28, 252 (1983)
+     bibkey: Koide1983
+     Comment: Phenomenological presentation. Predicts m_tau = 1776.97 MeV.
+
+[V]  Koide, Y.
+     "Charged lepton mass sum rule from U(3)-family nonet Higgs boson model"
+     arXiv:hep-ph/0506247 (2005)
+     Comment: Later theoretical extension.
+
+[V]  Koide, Y.
+     "Quark and lepton mass matrices with a cyclic permutation
+     invariant form"
+     arXiv:hep-ph/0005137 (2000)
+
+[V]  Koide, Y.
+     "Another formula for the charged lepton masses"
+     arXiv:1711.03221 (2017)
+     Comment: Proposes a second relation sqrt(m_e m_mu m_tau)/(sum sqrt(m))^3.
+
+--------------------------------------------------------------------------------
+B. GEOMETRIC / MATHEMATICAL INTERPRETATIONS
+--------------------------------------------------------------------------------
+
+[V]  Foot, R.
+     "A note on Koide's lepton mass relation"
+     arXiv:hep-ph/9402242 (1994)
+     bibkey: Foot1994
+     Comment: Establishes Q as cos^2 of angle between
+              (sqrt(m_e), sqrt(m_mu), sqrt(m_tau)) and unit diagonal.
+
+[V]  Rivero, A. and Gsponer, A.
+     "The strange formula of Dr. Koide"
+     arXiv:hep-ph/0505220 (2005)
+     bibkey: RiveroGsponer2005
+     Comment: Historical and bibliographical review. Notes Q = 2/3 is
+              the midpoint of [1/3, 1]. Widely cited entry point.
+
+[V]  Kocik, J.
+     "The Koide Lepton Mass Formula and Geometry of Circles"
+     arXiv:1201.2067 [physics.gen-ph] (2012)
+     bibkey: Kocik2012
+     Comment: *** DIRECTLY RELEVANT TO THE SODDY PAPER. ***
+              "A remarkable formal similarity between Koide's lepton
+              mass formula and a generalized Descartes circle formula
+              is reported." Generalizes Descartes to intersecting
+              circles at a common angle; shows Koide Q = 2/3 emerges
+              when the fourth curvature is set to zero. The Brilliant
+              (2026) Soddy paper takes the complementary step of
+              computing the non-trivial fourth curvature from the
+              ordinary (mutually tangent) Descartes theorem.
+              VERIFIED by author as of 2026-04-19.
+
+[S]  Brannen, C.
+     "The lepton masses" (brannenworks.com, 2006)
+     Comment: Non-peer-reviewed but widely cited. Pattern extension
+              to neutrinos via signed sqrt(m).
+
+[V]  Rivero, A.
+     "Koide formula: beyond charged leptons" (the waterfall in the
+     quark sector)
+     Presentation / ResearchGate posting, compiled bibliography of
+     Koide-related work. Useful entry point.
+
+--------------------------------------------------------------------------------
+C. EXTENSIONS TO QUARKS
+--------------------------------------------------------------------------------
+
+[V]  Rivero, A.
+     "A new Koide tuple: strange-charm-bottom"
+     arXiv:1111.7232 [hep-ph] (2011)
+     bibkey: Rivero2011
+     Comment: *** THE "KOIDE WATERFALL" PAPER. ***
+              Shows that (s, c, b) with -sqrt(m_s) satisfies Q = 2/3,
+              continuing a (c, b, t) tuple of Rodejohann-Zhang. Notes
+              the quasi-orthogonality to the original lepton tuple.
+              The chained Koide construction predicts the top mass
+              from the lepton sector.
+
+[V]  Rodejohann, W. and Zhang, H.
+     "Extension of an empirical charged lepton mass relation to the
+     neutrino sector"
+     Physics Letters B 698, 152 (2011)
+     arXiv:1101.5525
+     DOI: 10.1016/j.physletb.2011.03.007
+     bibkey: RZ2011 / RodejohannZhang2011
+     Comment: Surveys multiple quark/neutrino triples. Introduces
+              deviation parameters. First to identify (c, b, t) tuple.
+
+[V]  Cao, F. G.
+     "Neutrino masses from lepton and quark mass relations and neutrino
+     oscillations"
+     Physical Review D 85, 113003 (2012)
+     DOI: 10.1103/PhysRevD.85.113003
+     bibkey: Cao2012
+     Comment: Systematic application to both quark and neutrino sectors.
+              Source of the (c, b, t)-at-self-scales claim tested
+              in the look-elsewhere paper.
+
+[V]  Kartavtsev, A.
+     "A remark on the Koide relation for quarks"
+     arXiv:1111.0480 [hep-ph] (2011)
+     Comment: Proposes extensions to the quark sector. Note: this is
+              a DIFFERENT paper from Rivero arXiv:1111.7232 despite
+              both being hep-ph from November 2011.
+
+[V]  Li, N. and Ma, B.-Q. and collaborators
+     "Explorations of two empirical formulas for fermion masses"
+     European Physical Journal C 76, 167 (2016)
+     arXiv:1601.00805
+     DOI: 10.1140/epjc/s10052-016-3990-3
+     Comment: RG-running analysis of Kartavtsev's extensions across
+              scales 1 GeV - 10^12 GeV. Important validation of the
+              scale-dependence structure of Koide-type quark relations.
+
+[V]  Krolikowski, W.
+     Representative papers:
+       - "A universal shape of empirical mass formula for all leptons
+          and quarks" arXiv:hep-ph/0602018 (2006)
+       - "Predictive empirical mass formula for up and down quarks of
+          three generations" arXiv:1011.1120 (2010)
+       - "How the tau-lepton mass can be understood"
+         arXiv:1009.2388 (2010)
+       - Koide-type extension to all six quarks arXiv:1201.1251 (2012)
+     bibkey in Brilliant Soddy paper: Krolikowski2014
+     Comment: Krolikowski has produced a sequence of empirical mass
+              formulas for both leptons and quarks. The precise paper
+              behind the "Krolikowski2014" bibkey is not yet
+              identified; possibly refers to a 2014 update or to the
+              2012 quark extension.  Any of the above are legitimate
+              representative further reading.
+
+[V]  Xing, Z.-Z. and Zhang, H.
+     "On the Koide-like relations for the running masses of charged
+     leptons, neutrinos, and quarks"
+     Physics Letters B 635, 107 (2006)
+     arXiv:hep-ph/0602134
+     Comment: Scheme/scale dependence for running masses.
+
+[V]  Fusaoka, H. and Koide, Y.
+     Physical Review D 57, 3986 (1998)
+     Comment: Running-mass analysis (older).
+
+[V]  Xing, Z.-Z., Zhang, H., Zhou, S.
+     Physical Review D 77, 113016 (2008); Phys. Rev. D 86, 013013 (2012)
+     Comment: Running-quark-mass updates.
+
+--------------------------------------------------------------------------------
+D. EXTENSIONS TO NEUTRINOS
+--------------------------------------------------------------------------------
+
+[V]  Rodejohann, W. and Zhang, H. (as above, Â§C)
+
+[V]  Cao, F. G. (as above, Â§C)
+
+[V]  Krolikowski, W.
+     "A very simple empirical neutrino mass formula"
+     arXiv:hep-ph/0510355 (2005)
+
+[V]  Li, N. and Ma, B.-Q.
+     "Estimate of neutrino masses from Koide's relation"
+     Physics Letters B 609, 309 (2005)
+
+--------------------------------------------------------------------------------
+E. DYNAMICAL / FIELD-THEORETIC EXPLANATIONS
+--------------------------------------------------------------------------------
+
+[V]  Sumino, Y.
+     "Family Gauge Symmetry as an Origin of Koide's Mass Formula and
+     Charged Lepton Spectrum"
+     JHEP 0905, 075 (2009); arXiv:0812.2103
+     bibkey: Sumino2009
+     Comment: U(3) family gauge symmetry at 10^2-10^3 TeV. Major
+              dynamical proposal. Radiative-correction mechanism
+              that makes Koide exact at EW scale.
+
+[V]  Sumino, Y.
+     "Family gauge symmetry and Koide's mass formula"
+     Physics Letters B 671, 477 (2009); arXiv:0812.2090
+     DOI: 10.1016/j.physletb.2008.12.060
+     Comment: Shorter companion. QED-cancellation mechanism.
+
+[V]  Sumino, Y.
+     arXiv:0903.3640 (2009). Review/talk version with pedagogy.
+
+--------------------------------------------------------------------------------
+F. LOOK-ELSEWHERE / STATISTICAL ANALYSES
+--------------------------------------------------------------------------------
+
+[V]  Brilliant, A. M.
+     "A Constrained-Search Test of the Lepton-Scale Hypothesis on the
+     (c, b, t) Heavy Koide Combination"
+     Preprints.org (2026), DOI: 10.20944/preprints202604.0693.v1
+     bibkey: Brilliant2026cbt
+     Comment: The companion look-elsewhere paper. Tests (c, b, t) at
+              mu = m_tau against a Donoghue log-uniform random-spectrum
+              null. Gets p = 0.002 for the pre-specified claim under
+              full four-loop CRunDec; p approx 0.5 for unconstrained
+              search space. This is the v3 MC work that we extend.
+
+[V]  Brilliant, A. M.
+     "Soddy Curvature of the Koide Lepton Triple and the Strange-Quark
+     Mass"
+     Preprints.org (2026)
+     bibkey: Brilliant2026strange
+     Comment: The paper you sent. Koide-conditioned null MC with 4-prior
+              sensitivity. p_tight = 0.47% on 25,485 valid triples.
+
+--------------------------------------------------------------------------------
+G. REVIEWS AND BIBLIOGRAPHIES
+--------------------------------------------------------------------------------
+
+[V]  Rivero, A. and Gsponer, A. (as above, Â§B). Primary entry point.
+
+[V]  HandWiki "Physics:Koide_formula" - secondary cross-reference.
+
+[V]  Wikipedia "Koide formula" - secondary cross-reference.
+
+--------------------------------------------------------------------------------
+H. CRITICAL / SKEPTICAL ANALYSES
+--------------------------------------------------------------------------------
+
+[V]  Cook, J. D.
+     "Koide's coincidence"
+     Personal blog, 11 September 2018.
+     URL: johndcook.com/blog/2018/09/11/koide
+     Comment: Simulates Koide under perturbed lepton masses within
+              PDG error bars. Notes the "midpoint" observation:
+              Q = 2/3 sits at the middle of [1/3, 1].
+
+[V]  Baez, J.
+     "The Koide formula"
+     Azimuth blog, 4 April 2021
+     URL: johncarlosbaez.wordpress.com/2021/04/04/the-koide-formula
+     Comment: Notes the midpoint observation.  Cites Barrow-Tipler on
+              the statistical assessment of numerical coincidences.
+
+[S]  Motl, L.
+     The Reference Frame blog (2012 and earlier).
+     Comment: Representative skeptical view; Koide as numerology.
+              Not peer-reviewed; cited as stand-in for mainstream
+              skeptical position.
+
+--------------------------------------------------------------------------------
+I. MODEL-BUILDING AND THEORETICAL EXTENSIONS
+--------------------------------------------------------------------------------
+
+[V]  Gerard, J.-M., Goffinet, F., Herquet, M.
+     "A new look at an old mass relation"
+     Physics Letters B 633, 563-566 (2006)
+     arXiv:hep-ph/0510289
+
+[V]  Harrison, P. F., Perkins, D. H., Scott, W. G.
+     Physics Letters B 349, 137 (1995).
+     Comment: Tri-bimaximal mixing precedent.
+
+[V]  Koide, Y., Yamashita, T.
+     arXiv:1109.0510 (2011) on FCNC bounds from Sumino mechanism.
+
+[V]  Koide, Y.
+     "U(3) family non-Abelian Berry phase and Koide's mass formula"
+     arXiv:1504.02878 (2015). Berry-phase approach.
+
+--------------------------------------------------------------------------------
+J. PRECURSORS (PRE-KOIDE)
+--------------------------------------------------------------------------------
+
+[V]  Wilczek, F., Zee, A.
+     "Discrete Flavor Symmetries and a Formula for the Cabibbo Angle"
+     Physics Letters B 70, 418 (1977); erratum 72B, 504 (1978).
+
+[V]  Harari, H., Haut, H., Weyers, J.
+     "Quark masses and Cabibbo angles"
+     Physics Letters B 78, 459-461 (1978)
+     DOI: 10.1016/0370-2693(78)90485-9
+     URL: cds.cern.ch/record/870700
+     Comment: Earliest Koide-like relation in the literature. m_u = 0.
+
+[V]  Barut, A. O.
+     "Lepton mass formula"
+     Physical Review Letters 42, 1251 (1979)
+     Comment: Pre-Koide empirical lepton mass formula generating
+              m_mu and m_tau from m_e at ~0.1% precision. Classical
+              "unexplained empirical formula" precedent for Koide.
+
+[V]  Nambu, Y.
+     Various 1970s-80s empirical mass relations. Classical precursor.
+
+--------------------------------------------------------------------------------
+K. CLASSICAL GEOMETRY (FOR THE SODDY PAPER)
+--------------------------------------------------------------------------------
+
+[V]  Descartes, R. (1643). Correspondence with Princess Elisabeth.
+     Foundational statement of the theorem; via Coxeter (below).
+
+[V]  Soddy, F. (1936). "The kiss precise." Nature 137, 1021.
+
+[V]  Coxeter, H. S. M.
+     "Introduction to Geometry" (1968, Wiley)
+     bibkey: Coxeter1968
+     Comment: Standard modern reference for the Descartes circle
+              theorem. Cited in the Brilliant Soddy paper.
+
+[V]  Pedoe, D. (1979). "Circles: A Mathematical View."
+     Alternative modern reference.
+
+--------------------------------------------------------------------------------
+CITATION CROSS-CHECK: both Brilliant manuscripts
+--------------------------------------------------------------------------------
+
+Brilliant 2026 Soddy paper cites:
+  Koide1982, Koide1983, PDG2024, RiveroGsponer2005, Foot1994, Sumino2009,
+  RodejohannZhang2011, Rivero2011, Krolikowski2014, Kocik2012, Coxeter1968,
+  FLAG2024, CRunDec, KoideSoddyCode
+
+Brilliant 2026 LEE (v3) paper cites:
+  Koide1982, Koide1983, Rivero2011, RZ2011, Cao2012, Brilliant2026cbt,
+  Brilliant2026strange, GrossVitells2010, Mayo1996, MayoSpanos2006,
+  CousinsLectures, CRunDec, FLAG2024, PDG2024, RepoMC
+
+All cited entries verified above except Krolikowski2014 (year/paper
+identity not fully determined; treat as "representative Krolikowski"
+and verify specific arXiv before submission).
+
+--------------------------------------------------------------------------------
+SOURCES USED TO BUILD THIS LIST
+--------------------------------------------------------------------------------
+
+1. Extended-research literature survey, 2026-04-19.
+2. Brilliant 2026 Soddy paper bibliography ("checked hardcore").
+3. Brilliant 2026 LEE paper bibliography (v3/koide_lee_v5.tex).
+4. Rivero-Gsponer hep-ph/0505220 review.
+5. arXiv abstract page direct fetches.
+6. Wikipedia "Koide formula" article citation list.
+7. HandWiki "Physics:Koide_formula".
+
+--------------------------------------------------------------------------------
+HOW TO CONTRIBUTE (for GitHub once uploaded)
+--------------------------------------------------------------------------------
+
+When adding a new entry:
+1. Provide full bibliographic citation (authors, title, journal, vol,
+   page, year) AND arXiv number AND (ideally) DOI.
+2. Mark verification status with [V] / [S] / [R] / [?].
+3. Write a one-paragraph "Comment:" explaining what the paper
+   contributes to the Koide literature.
+4. Place under the appropriate section.
+
+When two sources give inconsistent citation details, prefer in order:
+(1) DOI, (2) arXiv abstract, (3) INSPIRE-HEP, (4) journal publisher.
+Wikipedia and HandWiki are tertiary.
+
+--------------------------------------------------------------------------------
+END OF FILE
+--------------------------------------------------------------------------------

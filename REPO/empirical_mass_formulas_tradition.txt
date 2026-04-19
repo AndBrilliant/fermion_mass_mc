@@ -1,0 +1,243 @@
+================================================================================
+EMPIRICAL MASS FORMULAS IN PARTICLE PHYSICS — THE TRADITION
+================================================================================
+
+Last updated: 2026-04-19
+Maintainer: A. Brilliant
+
+--------------------------------------------------------------------------------
+PURPOSE
+--------------------------------------------------------------------------------
+
+The Koide formula is sometimes dismissed as "numerology." This document
+establishes the broader tradition of empirical mass formulas in particle
+physics, of which Koide is a legitimate and unexceptional member. Several
+formulas in this tradition were ridiculed as coincidence when discovered
+and later received rigorous dynamical explanations. Others remain
+unexplained. The methodological point is that empirical mass formulas
+have historically been productive inputs to fundamental physics, and a
+claimed coincidence deserves a null test (which this project provides),
+not reflexive dismissal.
+
+--------------------------------------------------------------------------------
+A. CLASSIC EMPIRICAL FORMULAS THAT LATER GOT DYNAMICAL EXPLANATIONS
+--------------------------------------------------------------------------------
+
+## A1. Balmer series (1885)
+
+Johann Balmer's formula for hydrogen spectral lines:
+
+    1/lambda = R (1/n_1^2 - 1/n_2^2)
+
+was purely empirical when discovered. Bohr's model (1913) provided the
+dynamical explanation. This is the canonical example of a successful
+empirical mass/energy formula: it quantitatively predicted the observed
+spectrum with no theoretical framework behind it, and that predictive
+success was what motivated the search for a framework.
+
+Relevance: cited in Rivero-Gsponer (hep-ph/0505220) and many Koide
+commentaries as the precedent for treating Koide seriously despite
+lack of derivation.
+
+## A2. Gell-Mann-Okubo mass formula (1961-62)
+
+M. Gell-Mann and S. Okubo independently derived a sum rule for hadronic
+multiplet masses:
+
+    M = a_0 + a_1 Y + a_2 [ I(I+1) - Y^2/4 ]
+
+where I is isospin and Y is hypercharge.
+
+Citations:
+    Gell-Mann, M., "The Eightfold Way", Caltech Synchrotron Lab
+    Report CTSL-20 (1961). DOI: 10.2172/4008239.
+    Okubo, S., Progress of Theoretical Physics 27, 949-966 (1962).
+
+Status: The formula predicted the Omega-minus mass to within a few
+percent and allowed its discovery. For pseudoscalar mesons, a
+dynamical justification was later found in chiral perturbation theory
+(they are pseudo-Goldstone bosons of dynamically broken chiral
+symmetry). For the other multiplets the formula remains empirical but
+is understood as a consequence of SU(3) flavor symmetry breaking.
+
+Relevance to Koide: direct ancestor of "empirical mass formulas
+eventually explained by symmetry." The Gell-Mann-Okubo case is
+frequently cited as the template by which Koide might also eventually
+be explained (e.g., by Sumino's family gauge symmetry).
+
+## A3. Barut's lepton mass formula (1979)
+
+A. O. Barut proposed an empirical formula connecting charged lepton
+masses via a running-sum pattern:
+
+    m_l(n) = m_e (1 + (3/2) alpha^(-1) sum_{k=0}^{n-1} k^4)
+
+for n = 0, 1, 2. This generates m_mu to about 0.1% accuracy and m_tau
+to within about 0.1-0.3%. Published in Physical Review Letters.
+
+Citation:
+    Barut, A. O., Physical Review Letters 42, 1251 (1979).
+
+Status: remains empirical. Predates Koide by three years. Typically
+cited alongside Koide as evidence that charged lepton masses fall into
+unexpectedly simple patterns. Was similarly dismissed as coincidence
+in the mainstream literature.
+
+## A4. Harari-Haut-Weyers quark mass relation (1978)
+
+H. Harari, H. Haut, and J. Weyers calculated theoretical values for
+up, down, and strange quark masses from a model of Cabibbo mixing
+that coincidentally reproduces a Koide-like structure (with m_u = 0).
+
+Citation:
+    Harari, H., Haut, H., Weyers, J.
+    Physics Letters B 78, 459-461 (1978)
+    DOI: 10.1016/0370-2693(78)90485-9
+
+Status: predates Koide. Often cited as the first appearance of a
+Koide-type formula in the literature, though the authors did not
+frame it that way.
+
+--------------------------------------------------------------------------------
+B. OTHER EMPIRICAL MASS FORMULAS (STILL UNEXPLAINED OR PARTIALLY EXPLAINED)
+--------------------------------------------------------------------------------
+
+## B1. Regge trajectories
+
+Empirically, hadron masses squared are linear in angular momentum J:
+
+    J = alpha' M^2 + alpha_0
+
+with a universal slope alpha' ~ 0.9 GeV^-2. This was purely empirical
+in the 1960s; it is now understood in QCD via string-like flux-tube
+dynamics, though a first-principles derivation remains incomplete.
+
+## B2. Fritzsch texture ansatze (1970s-present)
+
+H. Fritzsch and collaborators proposed Yukawa matrices with specific
+texture-zero patterns that predict quark mass ratios and CKM angles.
+
+Citation (foundational):
+    Fritzsch, H., Physics Letters B 73, 317 (1978).
+
+Status: ongoing active research; see Fritzsch-Xing review papers.
+Many proposed texture ansatze fit observed masses and mixings; the
+question of which texture is "correct" or whether any is dynamical
+remains open.
+
+## B3. Ramond-Roberts-Ross fermion mass patterns (1993)
+
+    Ramond, P., Roberts, R. G., Ross, G. G.
+    "Stitching the Yukawa quilt"
+    Nuclear Physics B 406, 19 (1993)
+
+Systematic classification of texture-zero fermion mass matrices
+compatible with GUT assumptions. Partially explained by flavor
+symmetries but the specific pattern remains empirical.
+
+## B4. Froggatt-Nielsen flavor-hierarchy mechanism (1979)
+
+    Froggatt, C. D., Nielsen, H. B.
+    Nuclear Physics B 147, 277 (1979)
+
+Derives fermion mass hierarchy from a spontaneously broken U(1)
+flavor symmetry, where mass ratios are determined by charges under
+the flavor symmetry. Semi-empirical: explains patterns of ratios
+without predicting absolute masses.
+
+## B5. Anarchy hypothesis (2000-present)
+
+    Hall, L. J., Murayama, H., Weiner, N.
+    "Neutrino mass anarchy"
+    Physical Review Letters 84, 2572 (2000)
+    arXiv:hep-ph/9911341
+
+Proposes that neutrino Yukawa matrix entries are drawn uniformly from
+a distribution with no preferred structure. Makes statistical
+predictions for mixing angles via Monte Carlo; these have been
+extensively tested (de Gouvêa-Murayama, Phys. Lett. B 573, 94 (2003);
+arXiv:hep-ph/0301050). Methodologically relevant to our null test.
+
+--------------------------------------------------------------------------------
+C. METHODOLOGICAL PRECEDENTS FOR NULL TESTING
+--------------------------------------------------------------------------------
+
+## C1. de Gouvêa-Murayama anarchy tests (2003, 2015)
+
+    de Gouvêa, A., Murayama, H.
+    "A statistical test of anarchy"
+    Physics Letters B 573, 94 (2003), arXiv:hep-ph/0301050
+
+    de Gouvêa, A., Murayama, H.
+    "Neutrino mixing anarchy: alive and kicking"
+    Physics Letters B 747, 479 (2015), arXiv:1204.1249
+
+These papers perform the exact style of test we are doing: fix an
+algorithm, draw random inputs from a prior, compute tail probabilities
+for observed values. Their 2015 update finds P(anarchy gives values
+at least as improbable as observed) = 44%-64%, i.e., anarchy survives.
+
+This is the direct methodological ancestor of our Koide null test.
+
+## C2. Donoghue random-quark-mass program (1998-present)
+
+    Donoghue, J. F., "The weight for random quark masses"
+    Physical Review D 57, 5499 (1998), arXiv:hep-ph/9712333
+
+    Donoghue, J. F., Dutta, K., Ross, A.
+    "Quark and lepton masses and mixing in the landscape"
+    Physical Review D 73, 113002 (2006), arXiv:hep-ph/0511219
+
+Tests whether observed fermion masses are consistent with a
+scale-invariant random distribution. Establishes the log-uniform
+prior as phenomenologically supported.
+
+--------------------------------------------------------------------------------
+D. THE CASE FOR TAKING EMPIRICAL MASS FORMULAS SERIOUSLY
+--------------------------------------------------------------------------------
+
+The empirical discovery of quantitative patterns in particle spectra
+has historically been productive:
+
+1. Balmer -> Bohr -> quantum mechanics.
+2. Mendeleev's periodic table -> atomic shell structure.
+3. Gell-Mann-Okubo -> SU(3) flavor symmetry.
+4. Regge trajectories -> string theory -> QCD flux tubes.
+5. Cabibbo angle pattern -> CKM matrix -> three-generation structure.
+
+In each case, an empirical formula or pattern was discovered first and
+a dynamical explanation came later — sometimes decades later. The
+discovery of the pattern motivated the search for the framework.
+
+The Koide formula has held for 40+ years across a factor of 35
+improvement in tau-mass measurement precision. It makes a specific
+numerical prediction (m_tau = 1776.97 MeV) that has survived all
+subsequent experimental refinements. This pattern of behavior —
+precise, prediction-making, persistent across measurement
+improvements — is the signature of a formula that reflects
+something real, not a coincidence.
+
+Whether that "something real" is (a) Sumino's family gauge symmetry,
+(b) a geometric structure (this work, via Descartes-Soddy),
+(c) some connection to Yukawa landscape statistics (Donoghue),
+or (d) something not yet considered, is a live question. The
+null-hypothesis Monte Carlo test in this project quantifies the
+degree to which the pattern is statistically unusual under the
+best-motivated "accident" hypothesis (the Donoghue log-uniform
+prior), which is the minimum evidentiary bar required to justify
+further theoretical investment.
+
+--------------------------------------------------------------------------------
+SOURCES
+--------------------------------------------------------------------------------
+
+1. Gell-Mann-Okubo bibliography from Wikipedia, HandWiki, and primary
+   sources (Okubo 1962 Prog. Theor. Phys.).
+2. Historical notes on Balmer, Mendeleev, Regge from standard QFT
+   texts and review articles.
+3. Direct arXiv record lookups for 21st-century papers.
+4. Rivero-Gsponer hep-ph/0505220 bibliography.
+
+--------------------------------------------------------------------------------
+END OF FILE
+--------------------------------------------------------------------------------
