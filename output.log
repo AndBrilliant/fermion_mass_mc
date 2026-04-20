@@ -1,0 +1,53 @@
+
+============ EXEC  2026-04-19T11:38:17 ============
+--- command ---
+set -e
+cd <REPO_ROOT>
+PY="<VENV>/bin/python3 -u"
+
+# Syntax sanity check first
+$PY -c "import ast; ast.parse(open('tests/test_d_temporal_convergence.py').read()); print('syntax OK')"
+
+echo ""
+echo "### Test D — temporal convergence ###"
+$PY -m tests.test_d_temporal_convergence
+echo ""
+touch results/PRODUCTION_DONE
+echo "ALL TESTS COMPLETE"
+--- output ---
+syntax OK
+
+### Test D — temporal convergence ###
+======================================================================
+Null D: temporal convergence of F^2 vs historical m_s(2 GeV)
+======================================================================
+F^2 (PDG 2024 leptons): 95.1134 MeV
+mu_star: 1883.10 MeV
+
+Trajectory (FLAG m_s(2 GeV) evolved to mu_star):
+Epoch            m_s(mu*)    sigma    resid   r/sig   <1sig?
+------------------------------------------------------------
+FLAG_2013          95.441    2.442   -0.328  -0.134      YES
+FLAG_2016          95.543    1.119   -0.430  -0.384      YES
+FLAG_2019          95.075    0.692   +0.038  +0.055      YES
+FLAG_2021          95.075    0.692   +0.038  +0.055      YES
+FLAG_2024          95.075    0.692   +0.038  +0.055      YES
+
+Chi-square against m_s^true = F^2 hypothesis:
+  All 5 epochs:  chi^2 = 0.175,  P(chi^2 >= obs) = 0.999
+  3 independent: chi^2 = 0.169,  P(chi^2 >= obs) = 0.983
+
+Inverse-variance weighted mean residual:
+  <residual> = -0.0218 +/- 0.3718 MeV (-0.06 sigma from zero)
+
+MC coincidence null (N=50000, m_s^true ~ U(60,130) MeV):
+  P(F^2 lands in 1-sig band at ALL 5 epochs) = 0.0026
+  Observed: F^2 lands in 1-sig band at 5/5 epochs
+  P(at-least-observed-hits under null) = 0.0026
+  Per-epoch hit rate under null: ['0.071', '0.033', '0.020', '0.020', '0.019']
+
+Results written to <REPO_ROOT>/results/test_d_temporal_convergence.json
+
+ALL TESTS COMPLETE
+--- exit 0 ---
+============ DONE  2026-04-19T11:38:19 ============

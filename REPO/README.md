@@ -71,15 +71,13 @@ citations point to third-party works governed by their own copyrights.
 
 ## Related
 
-This repository accompanies the paper *"The Soddy formula applied to the
-Standard Model mass spectrum"* (A. Brilliant, 2026), which extends the
-Koide lepton relation via the Descartes circle theorem and Soddy's
-formula to predict light quark masses. The Monte Carlo null-hypothesis
-test of that paper's claims is in the sibling directory
-`mass_as_curvature_mc_v4/`.
+This repository accompanies the paper *"A Descartes–Soddy completion of
+the Koide lepton triple"* (A. Brilliant, 2026), which extends the Koide
+lepton relation via the Descartes circle theorem and Soddy's formula to
+predict the strange-quark mass at the lepton-sum scale.
 
 ## Maintainer
 
-A. Brilliant (Anthropic Research affiliation as of 2026).
+A. Brilliant (Applied Dynamics Research, Sapporo).
 
 Questions, corrections, and pull requests welcome.

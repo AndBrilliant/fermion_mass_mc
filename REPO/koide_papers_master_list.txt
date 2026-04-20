@@ -253,7 +253,8 @@ F. LOOK-ELSEWHERE / STATISTICAL ANALYSES
      Preprints.org (2026)
      bibkey: Brilliant2026strange
      Comment: The paper you sent. Koide-conditioned null MC with 4-prior
-              sensitivity. p_tight = 0.47% on 25,485 valid triples.
+              sensitivity. p_A1 = 0.340% on 10,000 Koide-valid triples
+              under primary log-uniform prior (95% CI: [0.236, 0.475]).
 
 --------------------------------------------------------------------------------
 G. REVIEWS AND BIBLIOGRAPHIES

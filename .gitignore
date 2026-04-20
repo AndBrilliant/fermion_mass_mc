@@ -33,5 +33,6 @@ Thumbs.db
 # Local logs / scratch (not tracked; artifacts in results/ ARE tracked for
 # reproducibility)
 *.log
+!output.log
 scratch/
 _tmp_*

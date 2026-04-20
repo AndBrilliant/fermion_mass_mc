@@ -14,6 +14,8 @@ reported in Section 4.
 **Pre-registered:** 2026-04-19 (Zenodo; see `PRE_REGISTRATION.md`)
 **Production run:** complete. Artifacts in `results/`.
 **Paper version:** v2 (post-adversarial audit, 2026-04-20)
+**Pre-registration commit:** `5ab2b88` (2026-04-19 JST).
+**Production / audit-remediation commit:** `3f09519` (2026-04-20 JST).
 
 ## What this code tests
 
@@ -76,8 +78,9 @@ python -m tests.test_filter_sensitivity         # §5.5 cutoff scan, ~2 min
 python -m tests.test_alt_scales                 # §5.3 scale prescriptions, ~5 sec
 ```
 
-Each test writes a JSON artifact to `results/`. Complete runtime for the
-full robustness analysis is under 10 minutes on a laptop.
+Each test writes a JSON artifact to `results/`. Core four tests (A/B/C/D):
+under 5 minutes. Full robustness suite (core + filter sensitivity +
+alternative scales): under 10 minutes.
 
 ## Repository layout
 
@@ -127,10 +130,13 @@ fermion_mass_mc/
 
 ## Reproducibility
 
-Every result in the paper's §5.3, §5.4, §5.5, and §5.6 is backed by a
-committed JSON artifact in `results/` produced by the corresponding test
-driver. Re-running each test with the pre-committed seeds reproduces the
-artifact byte-for-byte (MD5-verified 2026-04-20).
+Every Monte Carlo result in the paper's §5.3, §5.4, §5.5, and §5.6 is
+backed by a committed JSON artifact in `results/` produced by the
+corresponding test driver. Re-running each test with the pre-committed
+seeds reproduces the artifact byte-for-byte (MD5-verified 2026-04-20).
+The §5.1 error-budget decomposition is an analytic propagation from
+the stated input uncertainties and is verifiable by inspection, not an
+MC output.
 
 Four-loop CRunDec running is the one environment-sensitive piece of the
 pipeline. The pinned `rundec==0.7` in `requirements.txt` matches the
@@ -173,7 +179,16 @@ If you use this code please cite the paper:
   title   = {A Descartes--Soddy completion of the Koide lepton triple},
   journal = {Preprints.org},
   year    = {2026},
-  doi     = {TBD-on-publication}
+  doi     = {TBD-Preprints.org pending}
+}
+
+@misc{Brilliant2026methods,
+  author = {Brilliant, A. M.},
+  title  = {Pre-registered Monte Carlo protocols for the outer Soddy--Koide numerical observation},
+  year   = {2026},
+  doi    = {10.5281/zenodo.PENDING},
+  url    = {https://doi.org/10.5281/zenodo.PENDING},
+  note   = {Companion methods note; Zenodo DOI pending upload}
 }
 ```
 
