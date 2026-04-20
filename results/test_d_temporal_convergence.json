@@ -1,0 +1,94 @@
+{
+  "F2_MeV": 95.11335077070795,
+  "mu_star_MeV": 1883.09937445,
+  "trajectory": [
+    {
+      "label": "FLAG_2013",
+      "year": 2013,
+      "m_s_2gev_MeV": 93.8,
+      "sigma_2gev_MeV": 2.4,
+      "nf": "2+1",
+      "m_s_mustar_MeV": 95.44132463771615,
+      "sigma_mustar_MeV": 2.441995513118537,
+      "residual_MeV": -0.32797386700819664,
+      "residual_over_sigma": -0.13430567961583165,
+      "within_1sigma": true
+    },
+    {
+      "label": "FLAG_2016",
+      "year": 2016,
+      "m_s_2gev_MeV": 93.9,
+      "sigma_2gev_MeV": 1.1,
+      "nf": "2+1+1",
+      "m_s_mustar_MeV": 95.54307445076277,
+      "sigma_mustar_MeV": 1.1192479435126628,
+      "residual_MeV": -0.42972368005482486,
+      "residual_over_sigma": -0.38393966461638007,
+      "within_1sigma": true
+    },
+    {
+      "label": "FLAG_2019",
+      "year": 2019,
+      "m_s_2gev_MeV": 93.44,
+      "sigma_2gev_MeV": 0.68,
+      "nf": "2+1+1",
+      "m_s_mustar_MeV": 95.07502531074837,
+      "sigma_mustar_MeV": 0.6918987287169188,
+      "residual_MeV": 0.03832545995957615,
+      "residual_over_sigma": 0.0553917190029359,
+      "within_1sigma": true
+    },
+    {
+      "label": "FLAG_2021",
+      "year": 2021,
+      "m_s_2gev_MeV": 93.44,
+      "sigma_2gev_MeV": 0.68,
+      "nf": "2+1+1",
+      "m_s_mustar_MeV": 95.07502531074837,
+      "sigma_mustar_MeV": 0.6918987287169188,
+      "residual_MeV": 0.03832545995957615,
+      "residual_over_sigma": 0.0553917190029359,
+      "within_1sigma": true
+    },
+    {
+      "label": "FLAG_2024",
+      "year": 2024,
+      "m_s_2gev_MeV": 93.44,
+      "sigma_2gev_MeV": 0.68,
+      "nf": "2+1+1",
+      "m_s_mustar_MeV": 95.07502531074837,
+      "sigma_mustar_MeV": 0.6918987287169188,
+      "residual_MeV": 0.03832545995957615,
+      "residual_over_sigma": 0.0553917190029359,
+      "within_1sigma": true
+    }
+  ],
+  "chi2_test": {
+    "chi2_all_epochs": 0.17465240924510947,
+    "N_all_epochs": 5,
+    "p_value_all_epochs": 0.9993628066980484,
+    "chi2_independent": 0.16851592417690903,
+    "N_independent": 3,
+    "p_value_independent": 0.982504331700359,
+    "interpretation": "Small chi^2 means residuals are consistent with or smaller than expected under m_s^true = F^2.  Large chi^2 means residuals are inconsistent with that hypothesis."
+  },
+  "weighted_mean": {
+    "weighted_mean_MeV": -0.021826024067157983,
+    "weighted_sigma_MeV": 0.3718366971350842,
+    "n_sigma_from_zero": -0.05869787526439013
+  },
+  "mc_coincidence_null": {
+    "n_mc": 50000,
+    "n_observed_hits": 5,
+    "n_epochs": 5,
+    "p_all_epochs_hit_under_null": 0.00258,
+    "p_at_least_observed_hits_under_null": 0.00258,
+    "per_epoch_hit_rate_under_null": [
+      0.07054,
+      0.03258,
+      0.02038,
+      0.0197,
+      0.01944
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "A1_donoghue_loguniform": {
+    "prior": "A1_donoghue_loguniform",
+    "seed": 2026,
+    "n_attempts": 39364,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 34,
+    "hit_fraction": 0.0034,
+    "ci95_lo": 0.002355713194788786,
+    "ci95_hi": 0.004747948272573786,
+    "residual_summary_MeV": {
+      "n": 10000,
+      "median_MeV": 665.3325204336991,
+      "p10_MeV": 31.251698649043682,
+      "p90_MeV": 6161.618039243425,
+      "p_leq_observed": 0.0005,
+      "observed_MeV": 0.038
+    }
+  },
+  "A2_hsw_lognormal": {
+    "prior": "A2_hsw_lognormal",
+    "seed": 2027,
+    "n_attempts": 90464,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 59,
+    "hit_fraction": 0.0059,
+    "ci95_lo": 0.00449429793786634,
+    "ci95_hi": 0.007604055395284238,
+    "residual_summary_MeV": {
+      "n": 10000,
+      "median_MeV": 69.2444858156932,
+      "p10_MeV": 14.364105005729622,
+      "p90_MeV": 907.8498722492675,
+      "p_leq_observed": 0.0004,
+      "observed_MeV": 0.038
+    }
+  },
+  "A3_anarchy_svd": {
+    "prior": "A3_anarchy_svd",
+    "seed": 2028,
+    "n_attempts": 406654,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 25,
+    "hit_fraction": 0.0025,
+    "ci95_lo": 0.0016185014555470554,
+    "ci95_hi": 0.003688295991068797,
+    "residual_summary_MeV": {
+      "n": 10000,
+      "median_MeV": 644.3782682239897,
+      "p10_MeV": 31.103136217994443,
+      "p90_MeV": 6350.864764590339,
+      "p_leq_observed": 0.0001,
+      "observed_MeV": 0.038
+    }
+  },
+  "A4_linear_uniform": {
+    "prior": "A4_linear_uniform",
+    "seed": 2029,
+    "n_attempts": 72493,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 2,
+    "hit_fraction": 0.0002,
+    "ci95_lo": 2.422184564042986e-05,
+    "ci95_hi": 0.0007222800577237158,
+    "residual_summary_MeV": {
+      "n": 10000,
+      "median_MeV": 5167.933057504473,
+      "p10_MeV": 956.1053957617878,
+      "p90_MeV": 9280.365891720847,
+      "p_leq_observed": 0.0001,
+      "observed_MeV": 0.038
+    }
+  }
+}

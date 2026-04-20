@@ -1,0 +1,86 @@
+{
+  "B1_baseline_uncorrelated": {
+    "variant": "B1_baseline_uncorrelated",
+    "sigma_scale": 1.0,
+    "correlation_rho": 0.0,
+    "seed": 2126,
+    "n": 2000,
+    "p_leq_observed_residual": 0.052,
+    "hit_fraction": 0.657,
+    "ci95_lo": 0.635726807465739,
+    "ci95_hi": 0.6778119202677113,
+    "residual_abs_summary_MeV": {
+      "median": 0.4852815513048045,
+      "p10": 0.0834540574494988,
+      "p90": 1.1660836458681767
+    },
+    "residual_signed_summary_MeV": {
+      "mean": 0.029044818998792327,
+      "median": 0.019037529704023226,
+      "std": 0.7119668789570176
+    }
+  },
+  "B2_correlated_rho0.5": {
+    "variant": "B2_correlated_rho0.5",
+    "sigma_scale": 1.0,
+    "correlation_rho": 0.5,
+    "seed": 2127,
+    "n": 2000,
+    "p_leq_observed_residual": 0.034,
+    "hit_fraction": 0.674,
+    "ci95_lo": 0.6529628346506985,
+    "ci95_hi": 0.6945258457593797,
+    "residual_abs_summary_MeV": {
+      "median": 0.4858705867433824,
+      "p10": 0.0975109222787013,
+      "p90": 1.158355568309129
+    },
+    "residual_signed_summary_MeV": {
+      "mean": 0.008148970877439134,
+      "median": 0.005776073136350146,
+      "std": 0.6982655740870348
+    }
+  },
+  "B3_tighter_0.5sigma": {
+    "variant": "B3_tighter_0.5sigma",
+    "sigma_scale": 0.5,
+    "correlation_rho": 0.0,
+    "seed": 2128,
+    "n": 2000,
+    "p_leq_observed_residual": 0.091,
+    "hit_fraction": 0.948,
+    "ci95_lo": 0.9373432320662913,
+    "ci95_hi": 0.9573175602026627,
+    "residual_abs_summary_MeV": {
+      "median": 0.24276235343628771,
+      "p10": 0.04251175790042916,
+      "p90": 0.5989367565327948
+    },
+    "residual_signed_summary_MeV": {
+      "mean": 0.03274641942279842,
+      "median": 0.03639433688891469,
+      "std": 0.3548688930769102
+    }
+  },
+  "B4_looser_2sigma": {
+    "variant": "B4_looser_2sigma",
+    "sigma_scale": 2.0,
+    "correlation_rho": 0.0,
+    "seed": 2129,
+    "n": 2000,
+    "p_leq_observed_residual": 0.025,
+    "hit_fraction": 0.396,
+    "ci95_lo": 0.37448192325617996,
+    "ci95_hi": 0.4178234940993248,
+    "residual_abs_summary_MeV": {
+      "median": 0.9151262310765212,
+      "p10": 0.16857313050706452,
+      "p90": 2.236947069763228
+    },
+    "residual_signed_summary_MeV": {
+      "mean": 0.004106366512468838,
+      "median": -0.002859881334929537,
+      "std": 1.3377858896333796
+    }
+  }
+}

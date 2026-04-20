@@ -1,0 +1,12 @@
+# Pinned dependencies for Soddy-Koide Monte Carlo reproducibility.
+# Versions are those used to generate the artifacts in results/ and the
+# numerical values quoted in the paper. Byte-level reproducibility of the
+# JSON artifacts requires matching these versions.
+#
+# rundec is the Python wrapper for CRunDec (Herren & Steinhauser 2018).
+# We use the four-loop MSbar mass-running API (mMS2mMS) and the
+# alpha_s running API (AlphasExact, DecAsDownMS, DecAsUpMS).
+
+rundec==0.7
+numpy==2.4.4
+scipy==1.17.1

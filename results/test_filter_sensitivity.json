@@ -1,0 +1,46 @@
+{
+  "mu_min_0.7_GeV": {
+    "cutoff_GeV": 0.7,
+    "seed": 2026,
+    "n_attempts": 36916,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 33,
+    "hit_fraction": 0.0033,
+    "ci95_lo": 0.0022726238880000286,
+    "ci95_hi": 0.004631333724350862
+  },
+  "mu_min_1.0_GeV": {
+    "cutoff_GeV": 1.0,
+    "seed": 2026,
+    "n_attempts": 39364,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 34,
+    "hit_fraction": 0.0034,
+    "ci95_lo": 0.002355713194788786,
+    "ci95_hi": 0.004747948272573786
+  },
+  "mu_min_1.5_GeV": {
+    "cutoff_GeV": 1.5,
+    "seed": 2026,
+    "n_attempts": 42517,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 37,
+    "hit_fraction": 0.0037,
+    "ci95_lo": 0.0026064390077109624,
+    "ci95_hi": 0.005096391253158692
+  },
+  "mu_min_2.0_GeV": {
+    "cutoff_GeV": 2.0,
+    "seed": 2026,
+    "n_attempts": 45438,
+    "n_samples": 10000,
+    "n_valid": 10000,
+    "n_hits": 0,
+    "hit_fraction": 0.0,
+    "ci95_lo": 0.0,
+    "ci95_hi": 0.0003688199146187622
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "F2_MeV": 95.11335077070795,
+  "m_s_2GeV_MeV": 93.44,
+  "sigma_m_s_2GeV_MeV": 0.68,
+  "perturbative_threshold_GeV": 1.0,
+  "prescriptions": [
+    {
+      "prescription": "mu_star = m_e + m_mu + m_tau (baseline)",
+      "mu_MeV": 1883.09937445,
+      "perturbative": true,
+      "m_s_mu_MeV": 95.07502531074837,
+      "sigma_m_s_MeV": 0.6918987287169188,
+      "residual_MeV": 0.038325459959580144,
+      "n_sigma": 0.05539171900294168,
+      "hit_within_1sigma": true,
+      "comment": ""
+    },
+    {
+      "prescription": "m_mu + m_tau",
+      "mu_MeV": 1882.5883755,
+      "perturbative": true,
+      "m_s_mu_MeV": 95.0826151889006,
+      "sigma_m_s_MeV": 0.6919539632753897,
+      "residual_MeV": 0.030735581807348922,
+      "n_sigma": 0.04441853568098795,
+      "hit_within_1sigma": true,
+      "comment": ""
+    },
+    {
+      "prescription": "m_tau",
+      "mu_MeV": 1776.9299999999998,
+      "perturbative": true,
+      "m_s_mu_MeV": 96.74655311389198,
+      "sigma_m_s_MeV": 0.704063100571988,
+      "residual_MeV": -1.6332023431840241,
+      "n_sigma": -2.3196817754789225,
+      "hit_within_1sigma": false,
+      "comment": ""
+    },
+    {
+      "prescription": "2 GeV (conventional reference, not lepton-derived)",
+      "mu_MeV": 2000.0,
+      "perturbative": true,
+      "m_s_mu_MeV": 93.44,
+      "sigma_m_s_MeV": 0.68,
+      "residual_MeV": 1.6733507707079553,
+      "n_sigma": 2.4608099569234634,
+      "hit_within_1sigma": false,
+      "comment": ""
+    },
+    {
+      "prescription": "(m_e + m_mu + m_tau) / 3",
+      "mu_MeV": 627.6997914833333,
+      "perturbative": false,
+      "hit_within_1sigma": null,
+      "n_sigma": null,
+      "comment": "non-perturbative"
+    },
+    {
+      "prescription": "sqrt(m_mu * m_tau)",
+      "mu_MeV": 433.29843892773835,
+      "perturbative": false,
+      "hit_within_1sigma": null,
+      "n_sigma": null,
+      "comment": "non-perturbative"
+    },
+    {
+      "prescription": "(m_e * m_mu * m_tau)^(1/3)",
+      "mu_MeV": 45.778836666045095,
+      "perturbative": false,
+      "hit_within_1sigma": null,
+      "n_sigma": null,
+      "comment": "non-perturbative"
+    },
+    {
+      "prescription": "3 / (1/m_e + 1/m_mu + 1/m_tau) (harmonic)",
+      "mu_MeV": 1.525181961395496,
+      "perturbative": false,
+      "hit_within_1sigma": null,
+      "n_sigma": null,
+      "comment": "non-perturbative"
+    }
+  ]
+}
