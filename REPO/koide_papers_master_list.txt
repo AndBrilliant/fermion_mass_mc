@@ -25,8 +25,8 @@ SOURCES CONSIDERED AUTHORITATIVE
 This list was cross-referenced against two manuscripts whose citations
 were hand-verified by the author:
 
-- "A Descartes–Soddy completion of the Koide lepton triple" (Brilliant
-   2026, appolb class, the Soddy/strange paper).
+- "A Monte Carlo null-model test of an outer-Soddy completion of the
+   Koide lepton triple" (Brilliant 2026, the Soddy/strange paper).
 - "Look-elsewhere correction for Koide-type quark mass relations"
    (Brilliant 2026, the v3 LEE companion paper, koide_lee_v5.tex).
 

@@ -71,10 +71,11 @@ citations point to third-party works governed by their own copyrights.
 
 ## Related
 
-This repository accompanies the paper *"A Descartes–Soddy completion of
-the Koide lepton triple"* (A. Brilliant, 2026), which extends the Koide
-lepton relation via the Descartes circle theorem and Soddy's formula to
-predict the strange-quark mass at the lepton-sum scale.
+This repository accompanies the paper *"A Monte Carlo null-model test
+of an outer-Soddy completion of the Koide lepton triple"* (A. Brilliant,
+2026), which extends the Koide lepton relation via the Descartes circle
+theorem and Soddy's formula to predict the strange-quark mass at the
+lepton-sum scale.
 
 ## Maintainer
 

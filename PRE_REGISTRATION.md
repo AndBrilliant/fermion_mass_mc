@@ -2,7 +2,7 @@
 
 **Pre-registered on:** 2026-04-19
 **Author:** A. M. Brilliant
-**Paper under test:** "A Descartes–Soddy completion of the Koide lepton triple" (Brilliant 2026, bibkey `Brilliant2026strange`)
+**Paper under test:** "A Monte Carlo null-model test of an outer-Soddy completion of the Koide lepton triple" (Brilliant 2026, bibkey `Brilliant2026strange`). *Title amended post pre-registration; see amendment note below. The pre-registration-frozen state at commit `5ab2b88` preserves the original title "A Descartes–Soddy completion of the Koide lepton triple".*
 **Replaces:** MC reported in §5.4–5.6 of the paper
 **Repository:** https://github.com/AndBrilliant/fermion_mass_mc
 

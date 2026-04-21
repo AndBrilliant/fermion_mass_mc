@@ -8,7 +8,7 @@ Given a Koide-saturating triple (m_1, m_2, m_3), compute:
   - F^2 = (k_4^-)^2   [the comparison quantity, in units of mass]
   - mu_star = m_1 + m_2 + m_3  [the natural lepton-sum evaluation scale]
 
-Reference: Brilliant 2026 "A Descartes–Soddy completion of the Koide lepton triple", Proposition 1.
+Reference: Brilliant 2026 "A Monte Carlo null-model test of an outer-Soddy completion of the Koide lepton triple", Proposition 1.
 """
 import math
 

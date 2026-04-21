@@ -2,7 +2,7 @@
 
 Pre-registered Monte Carlo and reproducibility artifacts for
 
-> Brilliant, A. M., "A Descartes–Soddy completion of the Koide lepton triple,"
+> Brilliant, A. M., "A Monte Carlo null-model test of an outer-Soddy completion of the Koide lepton triple,"
 > Preprints.org (2026). [`Brilliant2026strange`]
 
 This repository contains the code, pre-registration, and committed result
@@ -176,7 +176,7 @@ If you use this code please cite the paper:
 ```bibtex
 @article{Brilliant2026strange,
   author  = {Brilliant, A. M.},
-  title   = {A Descartes--Soddy completion of the Koide lepton triple},
+  title   = {A Monte Carlo null-model test of an outer-Soddy completion of the Koide lepton triple},
   journal = {Preprints.org},
   year    = {2026},
   doi     = {TBD-Preprints.org pending}
