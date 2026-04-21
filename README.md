@@ -186,9 +186,9 @@ If you use this code please cite the paper:
   author = {Brilliant, A. M.},
   title  = {Pre-registered Monte Carlo protocols for the outer Soddy--Koide numerical observation},
   year   = {2026},
-  doi    = {10.5281/zenodo.PENDING},
-  url    = {https://doi.org/10.5281/zenodo.PENDING},
-  note   = {Companion methods note; Zenodo DOI pending upload}
+  doi    = {10.5281/zenodo.19674345},
+  url    = {https://doi.org/10.5281/zenodo.19674345},
+  note   = {Companion methods note, deposited on Zenodo}
 }
 ```
 
